@@ -1,3 +1,6 @@
+
+
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -13,21 +16,21 @@ form{
 
 
 #myBody{
-	height: 1200px;
-	background: linear-gradient(to bottom, #7e24fa 550px, #f4ecff 400px);
-	
+  height: 1200px;
+  background: linear-gradient(to bottom, #7e24fa 550px, #f4ecff 400px);
+  
 
 }
 
 
 
 #myHeader{
-	font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
-	color: white;
-	font-size: 35px;
-	margin-top:-10px;
-	margin-left: 150px;
-	position: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+  color: white;
+  font-size: 35px;
+  margin-top:-10px;
+  margin-left: 150px;
+  position: fixed;
 }
 
 
@@ -54,7 +57,7 @@ form{
 
 
 #testM{
-	margin:0;
+  margin:0;
     padding:0;
     margin-left: 500px;
 }
@@ -62,14 +65,14 @@ form{
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3)and (orientation : portrait){
 
 
-	#myHeader{
-	font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
-	color: white;
-	font-size: 45px;
-	margin-bottom: 100px;
-	margin-left: 150px;
-	position: fixed;
-	width: 250px;
+  #myHeader{
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+  color: white;
+  font-size: 45px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  position: fixed;
+  width: 250px;
 }
 
 
@@ -103,26 +106,26 @@ form{
       }
 
       #myBody{
-	         height: 1300px;
-	         background: linear-gradient(to bottom, #7e24fa 550px, #f4ecff 400px);
-	   }
+           height: 1300px;
+           background: linear-gradient(to bottom, #7e24fa 550px, #f4ecff 400px);
+     }
 
       #adjust{
-      	margin-top: 20px;
+        margin-top: 20px;
       }
 
 
       .password{
-      	display: none;
+        display: none;
         -webkit-text-security: disc;
       }
 
       #loadState{
-      	/*color: white;*/
-      	 
-      	 background-image: url(../assets/img/icon-loading.svg);
-      	 width: 100px;
-      	 height: 200px;
+        /*color: white;*/
+         
+         background-image: url(../assets/img/icon-loading.svg);
+         width: 100px;
+         height: 200px;
          line-height: 120px;
          /*border-radius: 50%;*/
          text-align: center;
@@ -133,50 +136,50 @@ form{
 
 
       .starter-template{
-      	margin-top: 150px;
+        margin-top: 150px;
       }
 
       #setInputField1{
-      	height: 65px;
-      	width: 430px;
-      	margin-top: -20px;
-      	padding-top: 12px;
-      	border-top-right-radius: 4px;
-      	border-top-left-radius: 4px;
-      	font-family: sans-serif;
-      	font-size: 24px;
-      	/*border: none;*/
-      	border-style: none;
-      	border-color: none;
-      	text-align: center;
-      	margin-left: 38px;
+        height: 65px;
+        width: 430px;
+        margin-top: -20px;
+        padding-top: 12px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        font-family: sans-serif;
+        font-size: 24px;
+        /*border: none;*/
+        border-style: none;
+        border-color: none;
+        text-align: center;
+        margin-left: 38px;
       }
       #scriptHack{
-      	/*position: absolute;*/
-      	margin-top: -3px;
-      	width: 266px;
-      	margin-left: -16px;
+        /*position: absolute;*/
+        margin-top: -3px;
+        width: 266px;
+        margin-left: -16px;
         
-      	color: white;
-      	background-color: #6624d2;
-      	font-style: sans-serif;
+        color: white;
+        background-color: #6624d2;
+        font-style: sans-serif;
       }
       #setInputField2{
-      	height: 65px;
-      	width: 430px;
-      	padding-top:16px;
-      	margin-top: -5.6px; /* -6px */
+        height: 65px;
+        width: 430px;
+        padding-top:16px;
+        margin-top: -5.6px; /* -6px */
         font-family: sans-serif;
         -webkit-text-security: disc;
         
         
         font-size: 24px;
-      	/*border: none;*/
-      	border-style: none;
-      	border-color: none;
-      	color: #6624d2;
-      	text-align: center;
-      	margin-left: 38px;
+        /*border: none;*/
+        border-style: none;
+        border-color: none;
+        color: #6624d2;
+        text-align: center;
+        margin-left: 38px;
 
       }
 
@@ -203,13 +206,13 @@ form{
       }
 
       .form-group{
-      	margin: 0;
-      	padding: 0;
+        margin: 0;
+        padding: 0;
       }
       input{
-      	text-align: center;
-      	font-style: sans-serif;
-      	color: #6624d2;
+        text-align: center;
+        font-style: sans-serif;
+        color: #6624d2;
       }
       
       textarea::-webkit-input-placeholder {
@@ -221,39 +224,39 @@ form{
 
 
       #checkMyStyle{
-      	margin-top: 140px;
-      	margin-left: 170px;
-      	width: 100px; 
+        margin-top: 140px;
+        margin-left: 170px;
+        width: 100px; 
       }
 
       #labelStyleP2{
-      	margin-top: 161.5px;
-      	margin-left: 200px;
-      	font-size: 25px;
-      	color: #6624d2;
+        margin-top: 161.5px;
+        margin-left: 200px;
+        font-size: 25px;
+        color: #6624d2;
       }
 
 
 
       .checkbox{
-     	width: 25px;
-     	height: 25px;
-     	padding: 0;
-     	margin: 0;
-     	margin-left: -2px;
-     	background-color: #f4ecff
-     	border-bottom-right-radius: 4px;
-     	border-bottom-left-radius: 4px;
-     	border-top-right-radius: 4px;
-     	border-top-left-radius: 4px;
-     	position: relative;
-     	vertical-align: middle;
-     	border: solid #7e24fa;
-     	border-width: thin;
+      width: 25px;
+      height: 25px;
+      padding: 0;
+      margin: 0;
+      margin-left: -2px;
+      background-color: #f4ecff
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px;
+      position: relative;
+      vertical-align: middle;
+      border: solid #7e24fa;
+      border-width: thin;
      }
 
      .container p{
-     	width: 65%;
+      width: 65%;
      }
 
 
@@ -263,19 +266,19 @@ form{
      }
 
      .checkbox label{
-     	width: 20px;
-     	height: 18px;
-     	position: absolute;
-     	top: 2px;
-     	left: 1px;
+      width: 20px;
+      height: 18px;
+      position: absolute;
+      top: 2px;
+      left: 1px;
 
-     	background-color: #f4ecff;
+      background-color: #f4ecff;
 
      }
 
      .checkbox label:before {
-     	content: '';
-     	opacity: 0;
+      content: '';
+      opacity: 0;
 
      }
      .checkbox input[type="checkbox"]:checked + label:before{
@@ -283,28 +286,28 @@ form{
      }
 
      .checkbox input[type="checkbox"]:checked + label{
-     	background-color: #7e24fa;
+      background-color: #7e24fa;
      }
 
     #test{
-    	text-align: left;
+      text-align: left;
     }
     .content{
-    	width: 600%;
+      width: 600%;
     }
 
       #setLabel{
-      	margin-left: 28px;
-      	font-size: 25px;
-      	color: #6624d2;
-      	margin-top: 0px;
+        margin-left: 28px;
+        font-size: 25px;
+        color: #6624d2;
+        margin-top: 0px;
 
       }
 
 
       .centre{
-      	background-color: red;
-      	padding-top: 100px;
+        background-color: red;
+        padding-top: 100px;
       }
 
       #boxButton{
@@ -313,8 +316,9 @@ form{
            font-family: sans-serif;
            text-align: center;
            margin-left: 120px;
-           margin-top: -18px;
+           margin-top: -25px;
            font-weight: lighter;
+           letter-spacing: 1px;
            transform: translate(-50%,-50%);
       }
 
@@ -325,15 +329,15 @@ form{
         border: 1px solid blue;
         box-sizing: border-box;
         margin-top: -4px; /* -5 px; */
-      	width: 430px;
-      	margin-left: 38px;
-      	margin-right: 100px;
-      	border-bottom-right-radius: 6px;
-      	border-bottom-left-radius: 6px;
+        width: 430px;
+        margin-left: 38px;
+        margin-right: 100px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
         
-      	color: white;
-      	background-color: #6624d2;
-      	font-style: sans-serif;
+        color: white;
+        background-color: #6624d2;
+        font-style: sans-serif;
       }
 
       
@@ -351,8 +355,8 @@ form{
       }
 
       div .container{
-      	width: 100%;
-      	display: inline-block;
+        width: 100%;
+        display: inline-block;
       }
 
       button:visited {
@@ -409,13 +413,13 @@ form{
       #tableA{
         border: none;
         border-top: none;
-      	float: left;
-      	width: 50%;
+        float: left;
+        width: 50%;
       }
       table td{
-      	border:none;
-      	border-top: 0;
-      	border-bottom:0: 
+        border:none;
+        border-top: 0;
+        border-bottom:0: 
       }
 
 
@@ -425,9 +429,9 @@ form{
        }
 
        #svgLoadState{
-       	height: 40px;
-       	width: 40px;
-       	margin-left: 20px;
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
         color: white;
         
         animation: rotate 1.3s infinite;
@@ -435,70 +439,70 @@ form{
 
        @keyframes rotate{
 
-       	  from{}
-       	  to{
-       	  	transform: rotate(360deg);
-       	  }
+          from{}
+          to{
+            transform: rotate(360deg);
+          }
        }
 
        #successBody{
-       	   height: 1200px;
-	       background-color: #7e24fa;
+           height: 1200px;
+         background-color: #7e24fa;
        }
 
        #successHeader{
-	     font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
-	     color: white;
-	     font-size: 35px;
-	     margin-left: 75px;
-	     position: center;
-	     margin-top: 100px;
+       font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+       color: white;
+       font-size: 35px;
+       margin-left: 75px;
+       position: center;
+       margin-top: 100px;
       }
 
       #congrats{
-      	margin-top: 70px;
-      	margin-left: 100px;
-      	position: center;
-      	font-size: 20px;
-      	color: white;
-      	font-style: sans-serif;
+        margin-top: 70px;
+        margin-left: 100px;
+        position: center;
+        font-size: 20px;
+        color: white;
+        font-style: sans-serif;
       }
 
-	  #logo-success{
+    #logo-success{
 
-	    width: 70px;
-	    height: 67px;
-	    background-color: white;
-	    padding-left: 10px;
-	    padding-right: 10px;
-	    padding-bottom: 10px;
-	    margin-left: 120px;
-	    padding-top: 10px;
-	    border-top-right-radius: 10px;
-	    border-top-left-radius: 10px;
-	    border-bottom-left-radius: 10px;
-	    border-bottom-right-radius: 10px;
-	    margin-top: 5px;
-	    
+      width: 70px;
+      height: 67px;
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      margin-left: 120px;
+      padding-top: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-top: 5px;
+      
      }
 
      #successParagraph{
-     	margin-top: -70px;
-     	font-size: 15px;
-     	color: white;
+      margin-top: -70px;
+      font-size: 15px;
+      color: white;
      }
      #successButton{
-     	margin-top: 150px;
-     	width: 150px;
-     	border-top-right-radius: 18px;
-     	border-top-left-radius: 18px;
-     	border-bottom-left-radius: 18px;
-     	border-bottom-right-radius: 18px;
-     	margin-left: 100px;
-     	color: #6624d2;
-     	font-size: sans-serif;
-     	font-size: 13px;
-     	font-weight: bold;
+      margin-top: 150px;
+      width: 150px;
+      border-top-right-radius: 18px;
+      border-top-left-radius: 18px;
+      border-bottom-left-radius: 18px;
+      border-bottom-right-radius: 18px;
+      margin-left: 100px;
+      color: #6624d2;
+      font-size: sans-serif;
+      font-size: 13px;
+      font-weight: bold;
      }
 
      #ErrorMessage1{
@@ -511,14 +515,390 @@ form{
          margin-left: 10px;      
          font-family: sans-serif;
          text-align: center;
-         color: bold red;
+         color: #ff1919;
          position: fixed;
          visibility: hidden;
 
      }
+     #tableP5{
+         visibility: hidden;
+      }
+      #iconsP5Container{
+          visibility: hidden;
+      }
+      #footerP5{
+        visibility: hidden;
+      }
+
+      #styleMe{
+         visibility: hidden;
+      }
    
 
 }
+
+
+/* ************************************************************************************************************************ */
+
+       
+
+
+
+/* ***********************************************************************************************************************************
+   ******************************** 
+                                              IPHONE X ABOVE  
+
+                                              IPHONE 5 BELOW
+
+
+   ****************************************************
+   **************************
+   **************************
+   **************************
+   ************************** */
+
+
+
+
+/* ************************************************************************************************************************ */   
+
+
+
+
+
+
+
+/* iPhone 5 Media Queries for responsiveness */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)and (orientation:portrait){
+
+    form{
+          margin:0;
+          padding:2px;
+          margin-top: -30px;
+          width: 250px;
+          margin-left: 40px;
+          position: fixed;
+    }
+
+    #myHeader{
+       font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+       color: white;
+       font-size: 28px;
+       margin-top:0px;
+       margin-left: 60px;
+       position: center;
+     }
+     
+     #myBody{
+        
+        background: linear-gradient(to bottom, #7e24fa 280px, #f4ecff 100px);
+        background-attachment: fixed;
+        height: 600px;
+     }
+
+     #logo-acmestack{
+        width: 66px;
+        height: 66px;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-left: -30px;
+        padding-top: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-top: 40px;
+        position: center;
+        border: 3px solid #caaef2;
+    }
+
+    #adjust{
+        margin-top: 150px;
+        margin-left: 10px;
+      }
+
+
+      .password{
+        display: none;
+        -webkit-text-security: disc;
+      }
+
+      #setInputField1{
+        height: 45px;
+        width: 275px;
+        margin-top: -14px;
+        padding-top: 12px;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        font-family: sans-serif;
+        font-size: 18px;
+        /*border: none;*/
+        color: #6624d2;
+        border-style: none;
+        border-color: none;
+        text-align: center;
+        margin-left: -45px;
+      }
+
+       #setInputField2{
+        height: 45px;
+        width: 275px;
+        padding-top:16px;
+        margin-top: -6px; /* -6px */
+        font-family: sans-serif;
+        -webkit-text-security: disc;
+        font-size: 25px;
+        border-style: none;
+        border-color: none;
+        color: #6624d2;
+        text-align: center;
+        margin-left: -45px;
+
+      }
+
+      #setInputField2 .password{
+        -webkit-text-security: disc;
+        -webkit-text-stroke-width: .75em;
+        font: large Verdana,sans-serif;
+          letter-spacing: 2px;
+      }
+
+
+
+      #setInputField2 ::webkit-input-{
+          font: large Verdana,sans-serif;
+          letter-spacing: 1px;
+       }
+
+
+       /* Removed textarea border **/
+         textarea:focus { 
+            outline: none !important;
+            border-color: #719ECE;
+            box-shadow: 0 0 10px #719ECE;
+      }
+
+      .form-group{
+        margin: 0;
+        padding: 0;
+      }
+      input{
+        text-align: center;
+        font-style: sans-serif;
+        color: #6624d2;
+      }
+      
+      textarea::-webkit-input-placeholder {
+       color: #caaef2;
+       font-size: 15px;
+       font-weight: bold;
+
+     }
+     #boxButton{
+           color: white;
+           font-size: 17px;
+           font-family: sans-serif;
+           text-align: center;
+           margin-left: 120px;
+           margin-top: 20px;
+           transform: translate(-50%,-50%);
+           letter-spacing: 1px;
+      }
+
+
+      #buttonContainer{
+ 
+        height: 45px;
+        border: 1px solid blue;
+        box-sizing: border-box;
+        width: 275px;
+        margin-left: -45px;
+        margin-right: 100px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        margin-top: -5px;
+        color: white;
+        background-color: #6624d2;
+        font-style: sans-serif;
+      }
+
+       #footerP{
+           visibility: hidden;
+     }
+     #ErrorMessage1{
+         
+         position: fixed;
+         
+         width: 100%;
+         margin-top: 80px;       /* 100px */ 
+         font-family: sans-serif;
+         text-align: center;
+         color: #ff4c4c;
+         font-size: 15px;
+         font-weight: bold;
+
+        /* visibility: hidden; */  /*  DO NOT FORGET TO MAKE ERROR HIDE FIRST */
+
+     }
+     #labelStyleP2{
+        
+         visibility: hidden;
+     }
+
+
+     #checkMyStyle{
+         /* visibility: hidden; */
+
+        margin-top: 60px;
+        margin-left: 35px;
+        width: 100px; 
+      
+     }
+     div #checkMyStyle{
+      width: 20px;
+     }
+
+     .checkbox{
+      width: 15px;
+      height: 15px;
+      padding: 0;
+      margin: 0;
+      margin-left: -2px;
+      background-color: #f4ecff
+      border-bottom-right-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px;
+      position: relative;
+      vertical-align: middle;
+      border: solid #7e24fa;
+      border-width: thin;
+     }
+
+     .checkbox input[type="checkbox"]{
+          visibility: hidden;
+     }
+
+     .checkbox label{
+      width: 11px;
+      height: 8px;
+      position: absolute;
+      top: 2px;
+      left: 1px;
+
+      background-color: #f4ecff;
+
+     }
+
+     .checkbox label:before {
+      content: '';
+      opacity: 0;
+
+     }
+     .checkbox input[type="checkbox"]:checked + label:before{
+        opacity: 1;
+     }
+
+     .checkbox input[type="checkbox"]:checked + label{
+      background-color: #6624d2;
+     }
+
+     #setLabel{
+        margin-top: -5px;
+        margin-left: 25px;
+        font-size: 15px;
+        color: #6624d2;
+    }
+     }
+     #checkbox1{
+        visibility: hidden; 
+     }
+    #styleMe{
+     margin-top: -19px;
+        margin-left: 133px;
+        font-size: 15px;
+        color: #6624d2;
+    }
+
+
+    #footerP5{
+         position: fixed;
+         left: 0;
+         bottom: -116px;
+         width: 100%;
+         margin-bottom: 200px;        
+         font-family: sans-serif;
+         text-align: center;
+         color: #6624d2;
+         font-size: 16px;
+         /*letter-spacing: 0.1em;*/
+    }
+
+     #iconsP5Container{
+         
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         margin-bottom: 20px;  
+         margin-left: 70px;      
+         font-family: sans-serif;
+         text-align: center;
+         color: #6624d2;
+         position: fixed;
+
+      }
+      /*#socialIcons{
+        visibility: hidden;
+      }*/
+
+      #socialIconsP5{
+          width: 40px;
+         line-height: 95px;
+         border-radius: 50%;
+         text-align: center;
+         font-size: 32px;
+          border: none;
+          height: 45px;
+         background-color: #e4d2ff;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-bottom: 10px;
+         padding-top: 10px;
+      }
+
+      #tableP5{
+        border: none;
+        border-top: none;
+        float: left;
+        width: 60%;
+        
+      }
+      table td{
+        border:none;
+        border-top: 0;
+        border-bottom:0: 
+      }
+
+
+      input, select, textarea{ 
+       color: #6624d2;
+       font-weight: bold; 
+       }
+
+       #iconContainerX{
+        visibility: hidden;
+       }
+       #myTable{
+        visibility: hidden;
+       }
+
+
+  
+}
+
 
 
        
