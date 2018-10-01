@@ -28,15 +28,17 @@ obj.click(function(){
      }
 
      else if(textAreaCount < 8 || textAreaCount > 24){  /* If invalid input */
+
+       if(textAreaCount < 8 || textAreaCount > 24){
           console.log("success");
           $("#setInputField2, .password").css("border","3px solid red");
           document.getElementById("boxButton").innerHTML = "login";
           document.getElementById("ErrorMessage1").style.visibility = "visible";
           $("#setInputField2, .password").css("color","red");
+        }
 
      }
      else if(textAreaCount >= 8 && textAreaCount <= 24){   /* If correct input */
-          
           window.location.assign('success.html');
      }
      
