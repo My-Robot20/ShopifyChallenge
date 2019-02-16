@@ -3,7 +3,9 @@ $(document).ready(function(){
 
 
 var obj = $('#boxButton,#buttonContainer');
-obj.click(function(){
+
+obj.click(function(){                      /* Acme Login button functionality */
+     
     console.log("LogIn Button works!");
 
 
@@ -12,11 +14,11 @@ obj.click(function(){
     var input = $("#setInputField2");
     /*console.log(input);*/
     var textAreaCount = input.val().length
-
+     
     /*console.log(textAreaCount); /* value of data in textarea */
 
-    
-  
+          /* Need to fix SVG ICON SERVER REQUEST */
+     
      obj.disabled = true;
      
      document.getElementById("boxButton").innerHTML = "<img id=\"svgLoadState\" src='../assets/img/icon-loading.svg'>";
@@ -26,9 +28,9 @@ obj.click(function(){
         console.log("success");
         document.getElementById("boxButton").innerHTML = "login";
      }
-
+     
      else if(textAreaCount < 8 || textAreaCount > 24){  /* If invalid input */
-
+     
        if(textAreaCount < 8 || textAreaCount > 24){
           console.log("success");
           $("#setInputField2, .password").css("border","3px solid red");

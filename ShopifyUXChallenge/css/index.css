@@ -1,57 +1,64 @@
 
+          
 
-
-.starter-template {
+.starter-template {        /* Desktop Response, iPhone responses below the desktop */
   padding: 40px 15px;
   text-align: center;
   margin-bottom:20px;
+  
 }
 
 form{
+
     position: absolute;
     padding: 0px;
     margin: 0;
+
 }
 
 
 
 #myBody{
-  height: 1200px;
-  background: linear-gradient(to bottom, #7e24fa 550px, #f4ecff 400px);
-  
 
+  height: 1200px;
+  background: linear-gradient(to right,  #f4ecff 750px, #7e24fa 400px);    /* Desktop Gradient fixed here */
+  
 }
 
 
 
 #myHeader{
-  font-family: -apple-system, BlinkMacSystemFont, "San Francisco";
+
+  font-family: -apple-system, BlinkMacSystemFont, "San Francisco";  /* Acme Header Desktop fixed */
   color: white;
   font-size: 35px;
-  margin-top:-10px;
-  margin-left: 150px;
+  margin-top: 127px;
+  margin-left: 850px;
   position: fixed;
+
 }
 
 
 
-#logo-acmestack{
 
-    width: 86px;
-    height: 86px;
+
+#logo-acmestack{           /* Acme logo fixed */
+
+    width: 70px;
+    height: 70px;
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 360px;
     padding-top: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 63px;
+    margin-top: 200px; 
     position: fixed;
-    border: 3px solid #caaef2;
+    border: 2px solid #caaef2;
 }
 
 
@@ -77,6 +84,7 @@ form{
   margin-left: 150px;
   position: fixed;
   width: 250px;
+  margin-top: -10px;
 }
 
 
@@ -158,6 +166,8 @@ form{
         text-align: center;
         margin-left: 38px;
       }
+
+
       #scriptHack{
         /*position: absolute;*/
         margin-top: -3px;
@@ -168,6 +178,8 @@ form{
         background-color: #6624d2;
         font-style: sans-serif;
       }
+
+
       #setInputField2{
         height: 65px;
         width: 430px;
