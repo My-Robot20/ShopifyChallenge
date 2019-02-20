@@ -1,6 +1,4 @@
 
-          
-
 .starter-template {        /* Desktop Response, iPhone responses below the desktop */
   padding: 40px 15px;
   text-align: center;
@@ -8,15 +6,37 @@
   
 }
 
-form{
+#ErrorMessage1{   /* Hide unwanted texts */
+  
+ visibility: hidden;
+
+}
+
+/* 
+#desktopErrorMessage{    ---> Desktop Login error message goes here 
+       
+        check mobile error specs after design 
+}
+
+*/
+
+ /* form{
 
     position: absolute;
     padding: 0px;
     margin: 0;
 
+}  */
+
+
+form{
+  margin:0;
+  padding:2px;
+  margin-top: 80px;
+  width: 270px;
+  margin-left: 40px;
+  position: fixed;
 }
-
-
 
 #myBody{
 
@@ -38,36 +58,147 @@ form{
 
 }
 
-
-
-
-
 #logo-acmestack{           /* Acme logo fixed */
 
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: 360px;
-    padding-top: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top: 200px; 
-    position: fixed;
-    border: 2px solid #caaef2;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: 360px;
+  padding-top: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 200px; 
+  position: fixed;
+  border: 2px solid #caaef2;
 }
 
 
+      
 
+.password{                          /* Input field Password disc hack */
+  display: none;
+  -webkit-text-security: disc;
+}
+
+input{                   /* Support code to style placeholder */
+  text-align: center;
+  font-style: sans-serif;
+  color: #6624d2;
+}
+
+textarea::-webkit-input-placeholder {   /* Styling placeholder here */
+ color: #caaef2;
+ font-size: 20px;
+ font-weight: bold;
+
+} 
+
+
+#setInputField1{    /* Styling username field here */
+  height: 60px;
+  width: 330px;
+  margin-top: -20px;
+  padding-top: 12px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-style: none;
+  border-color: none;
+  text-align: center;
+  margin-left: 40px;
+}
+
+#setInputField2{             /* Styling password input here */
+  height: 60px;
+  width: 330px;
+  padding-top:16px;
+  margin-top: -4.3px; 
+  font-family: sans-serif;
+  -webkit-text-security: disc;
+  font-size: 24px;
+  border-style: none;
+  border-color: none;
+  color: #6624d2;
+  text-align: center;
+  margin-left: 40px;
+
+}
+
+#setInputField2 .password{        /* Support code to hack password disc */
+  -webkit-text-security: disc;
+  -webkit-text-stroke-width: .75em;
+  font: large Verdana,sans-serif;
+    letter-spacing: 2px;
+}
+
+#setInputField2 ::webkit-input-{       /* Support code to hack password disc */
+    font: large Verdana,sans-serif;
+    letter-spacing: 1px;
+ }
+
+ /* Removed textarea border **/
+ textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.form-group{
+  margin: 0;
+  padding: 0;
+}
 
 #testM{
   margin:0;
     padding:0;
     margin-left: 500px;
+}
+
+
+/* #footerP5{   bottom page - "  or log in with " style 
+  position: fixed;
+  left: 0;
+  bottom: -116px;
+  width: 100%;
+  margin-bottom: 200px;        
+  font-family: sans-serif;
+  text-align: left;
+  color: #6624d2;
+  font-size: 16px;
+  
+}*/
+
+/* #buttonContainer{
+  visibility: hidden;
+}
+
+#boxButton{
+  visibility: hidden;
+}*/
+
+#p5boxButton{
+     visibility: hidden;
+}
+
+#labelStyleP2{
+  visibility: hidden;
+}
+
+#checkMyStyle{
+  visibility: hidden;
+}
+
+#styleMe{
+   visibility: hidden;
+}
+#footerP{ 
+  visibility: hidden;
 }
 
 
@@ -332,7 +463,7 @@ form{
            font-family: sans-serif;
            text-align: center;
            margin-left: 120px;
-           margin-top: -25px;
+           margin-top: 160px;
            font-weight: lighter;
            letter-spacing: 1px;
            transform: translate(-50%,-50%);
@@ -637,7 +768,7 @@ form{
       }
 
 
-      .password{
+      .password{                          /* Password disc hack */
         display: none;
         -webkit-text-security: disc;
       }
