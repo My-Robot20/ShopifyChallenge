@@ -11,7 +11,7 @@
  visibility: hidden;
 
 }
-
+                   /* Hide login text across all viewports, drag desktop left to check class="d-xl-none" */
 /* 
 #desktopErrorMessage{    ---> Desktop Login error message goes here 
        
@@ -94,7 +94,7 @@ input{                   /* Support code to style placeholder */
 textarea::-webkit-input-placeholder {   /* Styling placeholder here */
  color: #caaef2;
  font-size: 20px;
- font-weight: bold;
+ font-weight: 2px;
 
 } 
 
@@ -174,11 +174,27 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
   
 }*/
 
-/* #buttonContainer{
-  visibility: hidden;
+
+ 
+#desktop_SVG_button{
+  height: 60px;
+  width: 330px;
+  margin-top: -5px;
+  margin-left: 40px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #6624d2;
+  font-style: sans-serif;
 }
 
-#boxButton{
+#desktop_login_text{
+  margin-left: 180px;
+  font-size: 1.3em;
+  margin-top: -45px;
+  color: white;
+}
+
+/*#boxButton{
   visibility: hidden;
 }*/
 
@@ -849,7 +865,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
            font-size: 17px;
            font-family: sans-serif;
            text-align: center;
-           margin-left: 120px;
+           margin-left: 140px;
            margin-top: 20px;
            transform: translate(-50%,-50%);
            letter-spacing: 1px;

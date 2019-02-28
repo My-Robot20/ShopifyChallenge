@@ -71,10 +71,14 @@
       
 
        
-          
-          <div class="container" id="buttonContainer" id ="btnP5Container">
-              <p class="d-xl-none" id="boxButton" id="p5boxButton">login</p>
+          <!-- Mobile login-->
+          <div  class="d-xl-none" id="buttonContainer" id ="btnP5Container">
+              <p class="d-xl-none" class="d-sm-block" class="d-md-none" class="d-lg-none" id="boxButton" id="p5boxButton">login</p>
           </div>
+
+          <!-- Desktop login -->
+          <div class = "d-none d-sm-block"class="d-sm-none d-md-block" class="d-md-none d-lg-block" id="desktop_SVG_button"></div>
+          <p class = "d-none d-sm-block"class="d-sm-none d-md-block" class="d-md-none d-lg-block" id="desktop_login_text">login</p>
           
 
 
@@ -140,8 +144,9 @@
 
 
 
+        
         <i id="footerP5" class="d-xl-none">or login with</i>     <!-- Hide elements on large devices using bootstrap , class="d-xl-none" -->
-        <div id="iconsP5Container">
+        <div class ="d-xl-none" id="iconsP5Container">
           <table id="tableP5">
                 <tr>
                      <th><img  id="socialIconsP5" src="../assets/img/logo-google.svg"></th>

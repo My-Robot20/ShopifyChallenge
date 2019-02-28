@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-var obj = $('#boxButton,#buttonContainer');
+var obj = $('#boxButton,#buttonContainer,#desktop_SVG_button,#desktop_login_text');
 
 obj.click(function(){                      /* Acme Login button functionality */
      
