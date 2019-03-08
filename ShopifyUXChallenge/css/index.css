@@ -160,6 +160,89 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
     margin-left: 500px;
 }
 
+.myCustomBox{    /* Fix custom checkbox */     
+  margin-top: 100px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue; 
+}
+
+/*  start of box */
+
+#checkBoxMargin{
+     /*margin-top: 100px;*/
+
+}
+
+.checkbox {
+  position: relative;
+  margin-top:2px;
+}
+
+.checkbox label {
+  padding-left: 30px;
+  display: block;
+}
+
+.checkbox input {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox input:checked + .input-helper:before {
+  border-color: #8456ff;
+}
+
+.checkbox .input-helper:before,
+.checkbox .input-helper:after {
+  position: absolute;
+  content: "";
+  transition: all 200ms;
+}
+
+.checkbox .input-helper:before {
+  left: 0;
+  border: 2px solid #7a7a7a;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 15px;
+}
+
+.checkbox input:checked + .input-helper:before {
+  background-color: #8456ff;
+}
+
+.checkbox input:checked + .input-helper:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.checkbox .input-helper:before {
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;  /* remove border after creating */
+  color: white;
+}
+
+/*.checkbox .input-helper:after {
+  content: '\2713';
+  font-size: 13px;
+  left: 3px;
+  top: 0x;
+  color: #fff;
+  transform: scale(0);
+  opacity: 0;
+}*/
+
+/** end of box */
+
 
 /* #footerP5{   bottom page - "  or log in with " style 
   position: fixed;
@@ -193,6 +276,8 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
   margin-top: -45px;
   color: white;
 }
+
+
 
 /*#boxButton{
   visibility: hidden;
@@ -924,6 +1009,8 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
       width: 20px;
      }
 
+     /*
+
      .checkbox{
       width: 15px;
       height: 15px;
@@ -986,6 +1073,15 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
         color: #6624d2;
     }
 
+    */
+
+
+    .checkbox{             /* Removed checkbox in iPhone5 display */
+      display: none;
+    }
+    .myCustomBox{
+      display: none;
+    }
 
     #footerP5{
          position: fixed;

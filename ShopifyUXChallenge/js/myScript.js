@@ -26,7 +26,7 @@ obj.click(function(){                      /* Acme Login button functionality */
 
      if(textAreaCount == 0){     /* IF no input */
         console.log("success");
-        document.getElementById("boxButton").innerHTML = "login";
+        document.getElementById("boxButton").innerHTML = "login";      /* Mobile works, ADD Desktop SVG LOADING SPINNER now */
      }
      
      else if(textAreaCount < 8 || textAreaCount > 24){  /* If invalid input */
@@ -46,6 +46,9 @@ obj.click(function(){                      /* Acme Login button functionality */
      
     
 });
+
+
+
 
 
 
@@ -90,8 +93,33 @@ function setCharAt(str,index,chr) {
 
 
 
+/* 
+
+JS quick interview practice 
+var myObj = {
+    metahuman: 'Flash',
+    team: 'Justice League',
+    city: 'Central City'
+
+};
 
 
+
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+reverseString('hello');
+
+
+console.log('test');
+console.log(myObj);
+console.log(reverseString('hello'));
+
+*/
 
 
   
