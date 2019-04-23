@@ -13,7 +13,8 @@ obj.click(function(){                      /* Acme Login button functionality */
 
     var input = $("#setInputField2");
     /*console.log(input);*/
-    var textAreaCount = input.val().length
+    var textAreaCount = input.val().length;
+
      
     /*console.log(textAreaCount); /* value of data in textarea */
 
@@ -47,11 +48,7 @@ obj.click(function(){                      /* Acme Login button functionality */
     
 });
 
-
-
-
-
-
+    
 
 $(".password").each(function (i, el) {
     var orig = $(this),
@@ -72,6 +69,7 @@ $(".password").each(function (i, el) {
         })
    })
 
+   
 function setCaretPosition(elem, caretPos) {
     if (elem != null) {
         if (elem.createTextRange) {

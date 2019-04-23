@@ -29,6 +29,7 @@
 }  */
 
 
+
 form{
   margin:0;
   padding:2px;
@@ -38,13 +39,13 @@ form{
   position: fixed;
 }
 
+
 #myBody{
 
   height: 1200px;
   background: linear-gradient(to right,  #f4ecff 750px, #7e24fa 400px);    /* Desktop Gradient fixed here */
   
 }
-
 
 
 #myHeader{
@@ -57,6 +58,7 @@ form{
   position: fixed;
 
 }
+
 
 #logo-acmestack{           /* Acme logo fixed */
 
@@ -76,20 +78,20 @@ form{
   position: fixed;
   border: 2px solid #caaef2;
 }
-
-
-      
+    
 
 .password{                          /* Input field Password disc hack */
   display: none;
   -webkit-text-security: disc;
 }
 
+
 input{                   /* Support code to style placeholder */
   text-align: center;
   font-style: sans-serif;
   color: #6624d2;
 }
+
 
 textarea::-webkit-input-placeholder {   /* Styling placeholder here */
  color: #caaef2;
@@ -108,11 +110,14 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
   border-top-left-radius: 4px;
   font-family: sans-serif;
   font-size: 20px;
+  font-weight: bold;
   border-style: none;
   border-color: none;
+  color: #6624d2;
   text-align: center;
   margin-left: 40px;
 }
+
 
 #setInputField2{             /* Styling password input here */
   height: 60px;
@@ -130,6 +135,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 
 }
 
+
 #setInputField2 .password{        /* Support code to hack password disc */
   -webkit-text-security: disc;
   -webkit-text-stroke-width: .75em;
@@ -137,10 +143,13 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
     letter-spacing: 2px;
 }
 
+
 #setInputField2 ::webkit-input-{       /* Support code to hack password disc */
     font: large Verdana,sans-serif;
     letter-spacing: 1px;
  }
+
+
 
  /* Removed textarea border **/
  textarea:focus { 
@@ -160,12 +169,42 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
     margin-left: 500px;
 }
 
+
+
 .myCustomBox{    /* Fix custom checkbox */     
-  margin-top: 100px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid blue; 
+    margin-top: 150px;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #6624d2; 
+    margin-left: 130px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;   
 }
+
+#rememberText{
+  margin-top: -20px;
+  font-size: 14px;
+  margin-left: 170px;
+  color: #7e24fa;
+  font-weight: bolder;
+  letter-spacing: -1px;
+}
+
+#bottomLoginText{
+  margin-top: 130px;
+  color: #7e24fa;
+  margin-left: 140px;
+  letter-spacing: 0px;
+}
+
+
+
+#hide{
+  visibility: hidden;
+}
+
 
 /*  start of box */
 
@@ -194,7 +233,9 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 }
 
 .checkbox input:checked + .input-helper:before {
-  border-color: #8456ff;
+  border-color: #7e24fa;
+  margin-left: 3px;
+  margin-top: 1px;
 }
 
 .checkbox .input-helper:before,
@@ -206,7 +247,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 
 .checkbox .input-helper:before {
   left: 0;
-  border: 2px solid #7a7a7a;
+  /*border: 2px solid #6624d2;*/
 }
 
 .checkbox input {
@@ -215,7 +256,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 }
 
 .checkbox input:checked + .input-helper:before {
-  background-color: #8456ff;
+  background-color: #7e24fa;
 }
 
 .checkbox input:checked + .input-helper:after {
@@ -225,8 +266,8 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 
 .checkbox .input-helper:before {
   top: 0;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   border-radius: 2px;  /* remove border after creating */
   color: white;
 }
