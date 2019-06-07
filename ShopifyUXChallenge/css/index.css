@@ -7,18 +7,26 @@
 }
 
 #ErrorMessage1{   /* Hide unwanted texts */
+  margin-top:300px;
+
+  position: fixed;
   
+  width: 100%;
+  font-size: 16px;
+   
+  margin-left: 10px;      
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff1919;
+  position: fixed;
  visibility: hidden;
 
 }
                    /* Hide login text across all viewports, drag desktop left to check class="d-xl-none" */
-/* 
-#desktopErrorMessage{    ---> Desktop Login error message goes here 
-       
-        check mobile error specs after design 
-}
 
-*/
+
+
+
 
  /* form{
 
@@ -335,7 +343,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
 }
 
 #tableP{
-  margin-top:520px;
+  margin-top: 585px;
   border: none;
   border-top: none;
   float: left;
@@ -364,7 +372,21 @@ table td{
 }
 
 
-
+#DesktopError{
+  margin-top:400px;
+/*
+  position: fixed;
+  
+  width: 100%;
+  font-size: 25px;
+   
+  margin-left: 10px;      
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff1919;
+  position: fixed;
+  visibility: hidden;*/
+}
 
 
 /*#boxButton{
@@ -1066,6 +1088,7 @@ table td{
        #footerP{
            visibility: hidden;
      }
+
      #ErrorMessage1{
          
          position: fixed;
@@ -1078,7 +1101,7 @@ table td{
          font-size: 15px;
          font-weight: bold;
 
-        visibility: hidden; 
+        /*visibility: hidden;*/
 
      }
      #labelStyleP2{
