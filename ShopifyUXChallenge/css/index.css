@@ -192,12 +192,7 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
   letter-spacing: -1px;
 }
 
-#bottomLoginText{
-  margin-top: 130px;
-  color: #7e24fa;
-  margin-left: 140px;
-  letter-spacing: 0px;
-}
+
 
 
 
@@ -318,11 +313,65 @@ textarea::-webkit-input-placeholder {   /* Styling placeholder here */
   color: white;
 }
 
+#bottomLoginText{
+  margin-top: 170px;
+  color: #7e24fa;
+  font-weight: 550;
+  font-size: 15px;
+  margin-left: 150px;
+  letter-spacing: 0px;
+}
+
+#desktopIconsContainer{
+  margin-top: 550px; 
+  
+  width: 100%;
+
+  margin-left: 70px;      
+  font-family: sans-serif;
+  text-align: center;
+  color: #6624d2;
+  
+}
+
+#tableP{
+  margin-top:520px;
+  border: none;
+  border-top: none;
+  float: left;
+  width: 12%;
+  margin-left: 330px;
+  position: fixed;
+}
+
+table td{
+  border:none;
+  border-top: 0;
+  border-bottom:0: 
+}
+
+#socialIconsP{
+ width: 32px;
+ border-radius: 50%;
+ text-align: center;
+ border: none;
+ height: 32px;
+ background-color: #e4d2ff;
+ padding-left: 8px;
+ padding-right: 8px;
+ padding-bottom: 8px;
+ padding-top: 8px;
+}
+
+
+
 
 
 /*#boxButton{
   visibility: hidden;
 }*/
+
+
 
 #p5boxButton{
      visibility: hidden;
