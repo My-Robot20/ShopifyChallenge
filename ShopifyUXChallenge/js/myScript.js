@@ -36,7 +36,7 @@ obj.click(function(){                      /* Acme Login button functionality */
           console.log("success");
           $("#setInputField2, .password").css("border","3px solid red");
           document.getElementById("boxButton").innerHTML = "login";
-          document.getElementById("ErrorMessage1").style.visibility = "visible";
+          document.getElementById("ErrorMessage1").style.visibility = "visible"; /* Set error message visible after being hidden initially with css */
           $("#setInputField2, .password").css("color","red");
         }
 
